@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+  }
+    @font-face{
+        font-family: SignikaBold;
+        src: url('../font/Signika-Bold.ttf');
+    }
+@font-face{
+    font-family: FiraSans;
+    src:url('../font/FiraSans-Light.ttf');
+}
+      
+    
+      
+  .top-container {
+    background-color: #edda0e;
+    padding: 50px;
+    font-family: SignikaBold;
+    color: black;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 30%;
+    transition: 0.5s;
+  }
+  .text h1{
+      margin-bottom: -10px;
+  }.text h4{
+    margin-bottom: -5px;
+}
+.text{
+    text-align: left;
+    margin-left: 1%;
+    padding-left: 1%;
+    border-left: 3px solid black ;
+    transition: 0.5s;
+}
+.text:hover{
+    color: white;
+    transition: 0.5s;border-left: 3px solid white ;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #edda0e;
+    font-family: FiraSans;
+    padding-left: 25%;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.5s;
+  }
+  
+  #navbar a:hover {
+    transition: 0.5s;
+    color: white;
+  }
+  
+  #navbar a.active {
+    color: black;
+  }
+  #navbar a.active:hover {
+    
+    transition: 0.5s;
+    color: white;
+  }
+  .content {
+    padding: 16px;
+    background-color: #FFF26B;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
