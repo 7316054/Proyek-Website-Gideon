@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+  margin:0;
+  padding:0;
   }
     @font-face{
         font-family: SignikaBold;
@@ -22,6 +23,9 @@ body {
     padding-left: 30%;
     transition: 0.5s;
   }
+  .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.4);
+  }
   .text h1{
       margin-bottom: -10px;
   }.text h4{
@@ -42,7 +46,7 @@ body {
     overflow: hidden;
     background-color: #edda0e;
     font-family: FiraSans;
-    padding-left: 25%;
+    padding-left: 23%;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
@@ -69,12 +73,13 @@ body {
   }
   
   #navbar a.active {
-    color: black;
+    color: white;
+    transition: 0.5s;
   }
   #navbar a.active:hover {
     
     transition: 0.5s;
-    color: white;
+    color: black;
   }
   .content {
     padding: 16px;
@@ -100,3 +105,70 @@ body {
   .carousel-indicator{
     color:black;
   }
+  .carousel-caption{
+    font-family: FiraSans;
+    color: black;
+  }
+  .footer {
+    width: 100%;
+    font-family: FiraSans;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    background-color: #edda0e;
+    color: black;
+    margin-top: 1%;
+ }
+ .copyright{
+   font-family: FiraSans;
+   text-align: center;
+   padding: 2% 2%;
+ }
+ .sosmedlokasi{
+   display: inline-flex;
+   padding: 2% 2%;
+   width: 100%;
+   margin-left: 23%;
+ }
+ .sosmed{
+   text-align: center;
+   padding-right: 5%;
+ }
+ .lokasi{
+   border-left: 1px solid black;
+   padding-left: 5%;
+ }
+ .sosmed a{
+   padding: 30px 30px;
+   font-size:30px;color:black;
+   transition: 0.5s;
+ }
+ .sosmed a:hover{
+   color:white;
+   transition: 0.5s;
+ }
+ .dropbtn {
+  background-color: #ffeb14;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  min-height: 300px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+
+.dropup:hover .dropup-content {
+  display: block;
+}
