@@ -116,7 +116,7 @@ body {
      display: inline-flex;
      padding: 2% 2%;
      width: 100%;
-     margin-left: 23%;
+     margin-left: 31%;
    }
    .sosmed{
      text-align: center;
@@ -130,6 +130,7 @@ body {
      padding: 30px 30px;
      font-size:30px;color:black;
      transition: 0.5s;
+     margin-left: -10.4%;
    }
    .sosmed a:hover{
      color:white;

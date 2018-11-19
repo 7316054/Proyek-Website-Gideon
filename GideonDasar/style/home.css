@@ -83,6 +83,7 @@ body {
   }
   .content {
     padding: 16px;
+    background-color: #036604;
   }
   
   .sticky {
@@ -117,7 +118,6 @@ body {
     padding-top: 5%;
     background-color: #edda0e;
     color: black;
-    margin-top: 1%;
  }
  .copyright{
    font-family: FiraSans;
@@ -128,7 +128,7 @@ body {
    display: inline-flex;
    padding: 2% 2%;
    width: 100%;
-   margin-left: 23%;
+   margin-left: 31%;
  }
  .sosmed{
    text-align: center;
@@ -139,6 +139,7 @@ body {
    padding-left: 5%;
  }
  .sosmed a{
+   margin-left: -10.4%;
    padding: 30px 30px;
    font-size:30px;color:black;
    transition: 0.5s;
