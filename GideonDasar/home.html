@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="top-container">
+        <img src="img/lambang.png" alt="" width="100px" height="100px">
+        <div class="text">
+            <h1>GIDEON</h1>
+            <h4>PERHIMPUNAN PENEMPUH RIMBA</h4>
+            <h4>DAN PENDAKI GUNUNG</h4>
+        </div>
+    </div>
+    <div id="navbar">
+        <b>
+          <div class="center">
+            <a class="active" href="home.html">Home</a>
+            <a href="organisasiPPRPGGideon.html">Organisasi PPRPG Gideon</a>
+            <a href="sejarahGideon.html">Sejarah Gideon</a>
+            <a href="">Prestasi Gideon</a>
+            <a href="minatBakat.html">Minat & Bakat</a>
+          </div>
+        </b>
+    </div>
+    <div class="content">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>         
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Konten/KontenHeaderHutanGunung.jpeg" width="1100" height="500">
+          <div class="carousel-caption">
+            <b>
+              <h3>Description</h3>
+              <p>Gideon gideon gideon</p>
+            </b>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Konten/KontenHeaderRockClimbing.jpeg" width="1100" height="500">
+        <div class="carousel-caption">
+          <b>
+            <h3>Description</h3>
+            <p>Gideon gideon gideon</p>
+          </b>
+        </div>
+     </div>
+     <div class="carousel-item">
+        <img src="img/gideon.jpg" width="1100" height="500">
+        <div class="carousel-caption">
+          <b>
+            <h3>Description</h3>
+            <p>Gideon gideon gideon</p>
+          </b>
+        </div>
+      </div>
+    </div>
+           
+  </div>    
+    </div>
+                  <div class="footer">
+                    <div class="sosmedlokasi">
+                        <div class="sosmed">
+                            <h3>Sosial Media</h3>
+                            <a href="www.instagram.com/pprpggideon"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC47ZYZjpOoIwt-0UPnozAvw/featured"><i class="fa fa-youtube"></i></a>
+                          </div>
+                    <div class="lokasi">
+                      <h3>Lokasi</h3>
+                      <p>Jl. insinyur H.djuanda no 93 SMAN 1 Bandung</p>
+                      <div class="dropup">
+                      <b>
+                          <button class="dropbtn">Hover Me!</button>
+                      </b>
+                      <div class="dropup-content">
+                      <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=SMA%20Negeri%201%20Bandung&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black</a></div><style>.mapouter{text-align:right;height:300px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style></div>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+                    <div class="copyright">
+                      <b>
+                        <p>©2018 Manajemen Proyek</p>
+                      </b>
+                    </div>
+                    </div>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+$('.carousel').carousel({
+  interval: 3000
+})
+
+</script>
+</html>
